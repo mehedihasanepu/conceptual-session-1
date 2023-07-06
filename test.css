@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nev-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(93, 93, 93);
+    padding: 12px;
+    color: white;
+}
+.logo{
+    width: 130px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+}
+.menus li{
+    margin-right: 17px;
+    padding-right: 2px;
+    font-size: 20px;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    background-image: url("images/background.png"), linear-gradient(45deg, rgb(18, 18, 18), rgb(74, 74, 74));
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    font-size: 50PX;
+    font-weight: bold;
+}
+.descrption{
+    font-size: 18px;
+    margin-top: 15PX;
+}
+.btn{
+    margin-top: 15px;
+    padding: 13px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.photo{
+    width: 300px;
+}
